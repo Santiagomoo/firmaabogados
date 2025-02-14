@@ -11,4 +11,8 @@ export default defineConfig({
         }),
         
     ],
+    server: {
+        strictPort: true,
+        https: true
+    }
 });
